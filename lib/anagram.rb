@@ -6,8 +6,7 @@ class Anagram
   attr_accessor :string
 
   def initialize(string)
-    @string = self
-    p @string
+    @string = string 
   end
 
   def self.match(string)
