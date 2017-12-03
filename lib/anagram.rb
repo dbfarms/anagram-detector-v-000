@@ -5,8 +5,8 @@ class Anagram
 
   attr_accessor :string
 
-  def initialize(string)
-    @string = string
+  def initialize(word)
+    @string = word
   end
 
   def match(array)
