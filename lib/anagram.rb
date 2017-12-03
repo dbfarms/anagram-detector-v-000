@@ -12,7 +12,7 @@ class Anagram
   def match(array)
 
     #binding.pry
-    @word_array = @@string.split(" ")
+    @word_array = array.split(" ")
     binding.pry
 
   end
