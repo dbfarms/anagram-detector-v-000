@@ -15,11 +15,11 @@ class Anagram
     word_array = @name.split("")
     array.each do |r|
       if word_array == r.split("").sort
-        anagram_array << r 
+        anagram_array << r
       end
     end
 
-    return anagram_array 
+    return anagram_array
 
   end
 
