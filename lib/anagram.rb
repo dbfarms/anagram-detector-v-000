@@ -8,4 +8,8 @@ class Anagram
     @string = string
   end
 
+  def self.match
+
+  end
+
 end
