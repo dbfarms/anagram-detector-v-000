@@ -9,8 +9,6 @@ class Anagram
     @string = string
   end
 
-
-
   def match(string)
 
     #binding.pry
