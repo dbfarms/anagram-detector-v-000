@@ -11,15 +11,15 @@ class Anagram
 
 
 
-  def self.match(string_start)
+  def self.match
 
     binding.pry
-    @word_array = string_start.split(" ")
+    @word_array = self.split(" ")
     binding.pry
 
   end
 
-  self.match(@string)
+  self.match
 
   #binding.pry
 end
