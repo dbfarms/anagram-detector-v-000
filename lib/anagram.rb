@@ -3,7 +3,7 @@ require 'pry'
 
 class Anagram
 
-  attr_accessor :string 
+  attr_accessor :string_start
 
   def initialize(string)
     @string = string
