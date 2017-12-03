@@ -19,7 +19,7 @@ class Anagram
 
   end
 
-  self.match(string)
+  self.match(@string)
 
   #binding.pry
 end
