@@ -6,7 +6,7 @@ class Anagram
   attr_accessor :string
 
   def initialize(string)
-    @string = string 
+    @string = string
   end
 
   def self.match(string)
@@ -23,3 +23,4 @@ class Anagram
 
   #binding.pry
 end
+
