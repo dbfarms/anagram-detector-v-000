@@ -13,7 +13,7 @@ class Anagram
 
     binding.pry
     @word_array = array.split(" ")
-    binding.pry
+    #binding.pry
 
   end
 
