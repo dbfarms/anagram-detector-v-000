@@ -19,6 +19,8 @@ class Anagram
 
   end
 
+
+  binding.pry
   self.match(string)
 
   #binding.pry
