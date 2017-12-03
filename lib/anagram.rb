@@ -17,7 +17,7 @@ class Anagram
 
   end
 
-  self.match(@string)
+  string_start.match(@string)
 
   #binding.pry
 end
