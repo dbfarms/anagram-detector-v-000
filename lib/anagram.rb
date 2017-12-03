@@ -7,6 +7,7 @@ class Anagram
 
   def initialize(string)
     @string = self
+    p @string
   end
 
   def self.match(string)
