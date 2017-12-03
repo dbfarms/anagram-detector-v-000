@@ -5,8 +5,8 @@ class Anagram
 
   attr_accessor :string_start
 
-  def initialize(string)
-    @string = string
+  def initialize(string_start)
+    @string = string_start
   end
 
 
