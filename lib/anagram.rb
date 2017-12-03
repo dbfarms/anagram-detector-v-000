@@ -9,7 +9,7 @@ class Anagram
     @string = string
   end
 
-  def self.match(string)
+  def match(array)
 
     #binding.pry
     @word_array = @@string.split(" ")
@@ -23,4 +23,3 @@ class Anagram
 
   #binding.pry
 end
-
