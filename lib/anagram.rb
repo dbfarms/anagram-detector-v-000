@@ -1,7 +1,11 @@
 # Your code goes here!
 
-class Anagram 
+class Anagram
 
-  
+  attr_accessor :setter, :getter
 
-end 
+  def initialize(string)
+    @string = string
+  end
+
+end
