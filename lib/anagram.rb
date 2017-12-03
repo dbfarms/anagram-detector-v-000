@@ -11,7 +11,7 @@ class Anagram
 
 
 
-  def self.match(@string)
+  def self.match(string)
 
     #binding.pry
     @word_array = @string.split(" ")
