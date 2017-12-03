@@ -3,10 +3,10 @@ require 'pry'
 
 class Anagram
 
-  attr_accessor :string_start
+  attr_accessor :string
 
-  def initialize(string_start)
-    @string = string_start
+  def initialize(string)
+    @string = string
   end
 
 
@@ -17,7 +17,7 @@ class Anagram
 
   end
 
-  string_start.match(@string)
+  @string.match
 
   #binding.pry
 end
