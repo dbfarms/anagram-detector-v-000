@@ -3,10 +3,10 @@ require 'pry'
 
 class Anagram
 
-  attr_accessor :string
+  attr_accessor :name
 
   def initialize(word)
-    @string = word
+    @name = word
   end
 
   def match(array)
