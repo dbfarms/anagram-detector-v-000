@@ -10,16 +10,16 @@ class Anagram
   end
 
   def match(array)
-
+    anagram_array = []
     #binding.pry
     word_array = @name.split("")
     array.each do |r|
       if word_array == r.split("").sort
-
+        anagram_array << r 
       end
     end
 
-    binding.pry
+    return anagram_array 
 
   end
 
