@@ -11,9 +11,10 @@ class Anagram
 
   def match(array)
 
-    binding.pry
-    @word_array = array.split(" ")
     #binding.pry
+    @word_array = array.split(" ")
+
+    binding.pry
 
   end
 
